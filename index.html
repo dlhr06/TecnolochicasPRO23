@@ -5,6 +5,7 @@
     <head>
         <title>Página de Lomitos</title> <!--Nombre para la pestaña de la página web-->
         <meta charset="UTF-8"> <!--Metadatos (información) de la página HTML-->
+        <link href="estilos.css" rel="stylesheet"> <!--Agregar archivo .CSS para aplicarlo a la página-->
     </head>
 
     <body>
@@ -12,16 +13,81 @@
         <h3>Imagen de lomitos disponibles</h3>
 
         <!--Colocar una imagen desde una dirección web-->
-        <img src="https://www.dogalize.com/wp-content/uploads/2017/06/La-sverminazione-e-la-pulizia-del-cucciolo-del-cane-2-800x400-800x400.jpg" > 
+        <img src="https://i.pinimg.com/564x/43/55/7e/43557e451f3f03253e98bc1017199a91.jpg" width="400" > 
 
 
         <!--Colocar una imagen desde un archivo local de nuestra computadora-->
-        <img src="img/Rocky.jpg">
+        <img src="img/Rocky.jpg" width="500" height="560">
+        <img src="img/Haru.jpg" width="500" height="560">
 
+
+        <!--Crear un enlace externo-->
+        <p>Si quieres ver más imagenes de lomitos <a href="https://www.pinterest.com.mx/puppiesclub/" target="_blank">da clic a este enlace</a> </p>
+
+
+        <h3>Lista de lomitos</h3>
+        <p>3 Cosas que los perritos <strong>adoran</strong></p> <!--Para resaltar un texto, se utiliza el elemento STRONG-->
+
+        <ol> <!--Lista ordenada (Ordered list)-->
+            <li>Juegos con pelota</li> <!--Elemento de una lista (List element)-->
+            <li>Correr en campos grandes</li>
+            <li>Caricias y abrazos</li>
+
+        </ol>
+
+        <p>3 Cosas que los perritos <strong>odian</strong></p> 
+        <ul> <!--Lista desordenada (Urnordered list)-->
+            <li>Llevar tensa la correa</li>
+            <li>Los baños frecuentes</li>
+            <li>Los olores fuertes</li>
+        </ul> 
+
+        <!--Formularios-->
+        <form>
+            <!--Form con botones de radio (botón de selección)-->    
+            <p>¿Tu lomito es un cachorro o es un adulto?</p>
+            <label>
+                <input id="Cachorro" 
+                    type="radio" 
+                    value="cachorro" 
+                    name="edadperro"> Cachorro
+            </label>
+            <br> <!--Salto de linea-->
+            <label>
+                <input id="Adulto" 
+                    type="radio" 
+                    value="cachorro" 
+                    name="edadperro"> Adulto
+            </label>
+            
+            <!--Form con casillas de verificación--> 
+            <p>¿Qué tipo de personalidad tiene tu lomito?</p>
+            <label>
+                <input id="Enojon" 
+                    type="checkbox" 
+                    value="enojon" 
+                    name="personalidad"> Enojón
+            </label>
+            <br>
+            <label>
+                <input id="Jugueton" 
+                    type="checkbox" 
+                    value="juegueton" 
+                    name="personalidad"> Juegueton
+            </label>
+            <br>
+            <label>
+                <input id="Dormilon" 
+                    type="checkbox" 
+                    value="dormilon" 
+                    name="personalidad"> Dormilón
+            </label>
+
+        </form>        
     </body>
 
     <footer>
-
+        <p><small>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx" target="_blank"> Technolochicas PRO</a></small></p>
     </footer>
 
 </html>
