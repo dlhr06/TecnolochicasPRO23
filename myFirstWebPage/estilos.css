@@ -1,0 +1,50 @@
+body{
+background-color:#d2d5af; /*Color de fondo*/
+font-family: 'Cherry Bomb One', cursive;
+}
+
+/*Configuración de vista de fuentes [Color, tamaño]*/
+
+h3 {
+    color: black;
+    font-size: 25px;
+}
+
+h1, p{
+    color: white;
+    font-size: 30px;
+}
+
+/*Configuración de vista de imagenes [Ancho, 
+                                        alto, 
+                                        estilo de borde, 
+                                        color del borde, 
+                                        margen a la derecha, 
+                                        margen entre imagenes
+                                        padding]*/
+img {
+    width: 350px; 
+    height: 500px;
+    border-style: dotted;
+    color: white;
+    margin-left: 80px; 
+    margin-bottom: 50px;
+    padding: 20px;
+
+  
+}
+
+/*Configuración de enlace web [Color]*/
+
+a{
+    color: #5d4157;
+}
+
+/*Configuración del pie de página */ 
+
+footer{
+    color: violet;
+}
+
+
+
