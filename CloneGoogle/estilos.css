@@ -152,3 +152,37 @@ main .main-buttons button:hover{
     box-shadow: 0 0.5px 1px 0 #000001;
     cursor: pointer;
 }
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 15px;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left{
+    justify-self: left;
+
+}
+footer .footer-right{
+    justify-self: right;
+    
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+}
