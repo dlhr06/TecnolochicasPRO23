@@ -25,7 +25,7 @@ Dentro de este proyecto se encuentra un ejemplo para implementar algunos primero
 En este proyecto, he utilizado los conocimientos de HTML y CSS que adquirí en el bootcamp, con el objetivo de codificar un programa para clonar la interfaz de Google.📧🌐
 
 ### Demo Link
-Con el siguiente link puedes visualizar el [PROYECTO TERMINADO](https://weverse.io/bts/feed)
+Con el siguiente link puedes visualizar el [PROYECTO TERMINADO]([https://weverse.io/bts/feed](https://tubular-pixie-5ac5b6.netlify.app/))
 
 ## 3. Flexbox-CSS-Forest 🌲👋🏼
 
